@@ -129,7 +129,6 @@ top: auto;
 left: 10%;
 }
 /* Header ********************************************************************/
-
 #Geographie h4 {
   text-decoration: underline;
   font-size: 30px;
@@ -228,7 +227,5 @@ footer p{
 }
 
 #content{
-  
   backdrop-filter: blur(15px);
-  
 }
