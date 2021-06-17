@@ -4,7 +4,12 @@ html, body {
   height: 100%;
   text-align:center;
   scroll-behavior: smooth;
-  }
+  background-color: firebrick;
+  background-image: url(Attika_Griechenland.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 section {
   min-height: 100%
@@ -124,6 +129,7 @@ top: auto;
 left: 10%;
 }
 /* Header ********************************************************************/
+
 #Geographie h4 {
   text-decoration: underline;
   font-size: 30px;
@@ -219,4 +225,10 @@ footer p{
   position: relative;
   top: auto;
   left: 10%;
+}
+
+#content{
+  
+  backdrop-filter: blur(15px);
+  
 }
